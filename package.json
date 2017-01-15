@@ -1,7 +1,6 @@
 {
-  "name": "first",
+  "name": "marco",
   "version": "1.0.0",
-  "description": "",
   "main": "a7.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,12 @@
   "bugs": {
     "url": "https://github.com/marcooren/bootcamp/issues"
   },
-  "homepage": "https://github.com/marcooren/bootcamp#readme"
+  "homepage": "https://github.com/marcooren/bootcamp#readme",
+  "dependencies": {
+    "http-server": "^0.9.0",
+    "open": "0.0.5",
+    "shelljs": "^0.7.6"
+  },
+  "devDependencies": {},
+  "description": ""
 }
