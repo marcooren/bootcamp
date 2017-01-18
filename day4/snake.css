@@ -1,0 +1,15 @@
+.row {
+    overflow: hidden;
+}
+
+.col {
+    height: 5vh;
+    width: 5vh;
+    border: solid 1px #eee;
+    float: left;
+    margin: 1px;
+}
+
+.black {
+    background-color: #000;
+}
