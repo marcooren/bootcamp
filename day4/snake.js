@@ -129,7 +129,7 @@
     }
 
     function movePixel() {
-        matrix = initMatrix(rows, cols, snake.posX, snake.posY, snake2.posX, snake2.posY);
+        matrix = initMatrix(rows, cols, snake.posX, snake.posY);
         //    matrix = initMatrix(rows, cols, snake2.posX, snake2.posY);
         drawMatrix(rows, cols, matrix);
     }
@@ -147,13 +147,12 @@
         }
     }
 
-    function initMatrix(rows, cols, posX, posY, posX2, posY2) {
+    function initMatrix(rows, cols, posX, posY) {
         var matrix = [];
         for (var r = 0; r < rows; r++) {
             var row = [];
             for (var c = 0; c < cols; c++) {
-
-                row.push((r == posY && c == posX) || (r == posY2 && c == posX2) ? true : false);
+                row.push((r == posY && c == posX) ? true : false);
             }
             matrix.push(row);
         }
